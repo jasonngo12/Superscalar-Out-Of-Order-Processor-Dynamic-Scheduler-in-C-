@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name":"gdb",
+            "type":"cppdbg",
+            "request": "launch",
+            "program":"/mnt/ncsudrive/j/jango/ece563/project3/project3_read_trace/cpp_files/sim",
+            "cwd": "/mnt/ncsudrive/j/jango/ece563/project3/project3_read_trace/cpp_files",
+            // "preLaunchTask": "run the makefile",
+            "args":["16", "8", "2", "val_trace_gcc1"]
+        }
+    ]
+}
